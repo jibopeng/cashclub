@@ -1,4 +1,4 @@
-package com.example.loansupermarketcommon.entity;
+package com.example.loansupermarketcommon.orm.user.entity;
 
 public class User {
 

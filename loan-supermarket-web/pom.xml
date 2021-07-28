@@ -28,15 +28,11 @@
             <artifactId>spring-native</artifactId>
             <version>${spring-native.version}</version>
         </dependency>
-<<<<<<< HEAD
         <dependency>
             <groupId>org.mybatis</groupId>
             <artifactId>mybatis</artifactId>
             <version>3.4.6</version>
         </dependency>
-=======
-
->>>>>>> bab9949c23a1bd99a9ff5d73815aadb2ce58a6c8
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
