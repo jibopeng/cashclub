@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.example.loansupermarketcommon.mapper.LoginMapper">
+<mapper namespace="com.example.loansupermarketcommon.orm.user.mapper.LoginMapper">
     <!--返回Map-->
-    <resultMap id="BaseResultMap" type="com.example.loansupermarketcommon.entity.Sms">
+    <resultMap id="BaseResultMap" type="com.example.loansupermarketcommon.orm.user.entity.Sms">
         <id column="id" property="id" jdbcType="BIGINT" />
         <result column="phone" property="phone" jdbcType="VARCHAR" />
         <result column="sendTime" property="sendTime"/>
@@ -68,7 +68,7 @@
     </sql>
 
 
-    <insert id="save" parameterType="com.example.loansupermarketcommon.entity.Sms">
+    <insert id="save" parameterType="com.example.loansupermarketcommon.orm.user.entity.Sms">
         <selectKey resultType="long" keyProperty="id">
             SELECT LAST_INSERT_ID() AS ID
         </selectKey>
@@ -76,7 +76,7 @@
     </insert>
 
 
-    <update id="update" parameterType="com.example.loansupermarketcommon.entity.Sms">
+    <update id="update" parameterType="com.example.loansupermarketcommon.orm.user.entity.Sms">
         update cl_borrow set
         user_id = #{userId,jdbcType=BIGINT},
         order_no = #{orderNo,jdbcType=VARCHAR},

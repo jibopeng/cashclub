@@ -1,4 +1,4 @@
-package com.example.loansupermarketcommon.mapper;
+package com.example.loansupermarketcommon.orm.user.mapper;
 
 import org.apache.ibatis.annotations.Mapper;
 

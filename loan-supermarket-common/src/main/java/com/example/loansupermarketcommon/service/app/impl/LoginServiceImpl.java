@@ -1,7 +1,7 @@
-package com.example.loansupermarketapp.service.impl;
+package com.example.loansupermarketcommon.service.app.impl;
 
-import com.example.loansupermarketapp.service.LoginService;
-import com.example.loansupermarketcommon.mapper.LoginMapper;
+import com.example.loansupermarketcommon.service.app.LoginService;
+import com.example.loansupermarketcommon.orm.user.mapper.LoginMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

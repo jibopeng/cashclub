@@ -1,6 +1,6 @@
 package com.example.loansupermarketapp.controller;
 
-import com.example.loansupermarketapp.service.LoginService;
+import com.example.loansupermarketcommon.service.app.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
