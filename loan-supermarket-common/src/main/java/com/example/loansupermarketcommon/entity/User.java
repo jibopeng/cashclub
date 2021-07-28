@@ -1,4 +1,4 @@
-package com.example.loansupermarketcommon.orm.user.entity;
+package com.example.loansupermarketcommon.entity;
 
 import javax.persistence.*;
 import java.io.Serializable;
